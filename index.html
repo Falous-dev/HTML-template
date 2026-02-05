@@ -4,20 +4,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio - Votre Nom</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Bienvenue sur mon portfolio</h1>
-    </header>
-    <main>
-        <h3>A propos</h3>
-        <p>ci est un exemple de page HTML simple.Ce</p>
-    </main>
-    <footer>
-        <p>&copy; Mon portfolio</p>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Bonjour, je suis <span class="highlight">Votre Nom</span></h1>
+            <p class="hero-subtitle">Développeur Web Full Stack</p>
+            <p class="hero-description">Je crée des expériences web modernes et performantes</p>
+            <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+        </div>
+    </section>
+
+
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Passionné par le développement web, je transforme des idées en applications web élégantes et
+                        fonctionnelles. Avec une expertise en front-end et back-end, je m'engage à créer des solutions
+                        innovantes.</p>
+                    <p>Mon objectif est de combiner créativité et technologie pour offrir des expériences utilisateur
+                        exceptionnelles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title">Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Front-End</h3>
+                    <p>HTML5, CSS3, JavaScript, React, Vue.js</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Back-End</h3>
+                    <p>Node.js, Python, PHP, Express, Django</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>Base de données</h3>
+                    <p>MySQL, MongoDB, PostgreSQL</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Outils</h3>
+                    <p>Git, Docker, VS Code, Figma</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">📱</div>
+                    <div class="project-info">
+                        <h3>Application Mobile</h3>
+                        <p>Application de gestion de tâches avec synchronisation cloud et notifications.</p>
+                        <div class="project-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">🎨</div>
+                    <div class="project-info">
+                        <h3>Portfolio Designer</h3>
+                        <p>Site portfolio interactif pour un designer graphique avec galerie dynamique.</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-moi</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <p>email@example.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <p>+00 ....</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <p>Paris, France</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
     </footer>
 </body>
 
