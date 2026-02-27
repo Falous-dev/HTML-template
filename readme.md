@@ -33,7 +33,7 @@ Aucune assistance, garantie de fonctionnement, ni obligation de correction n’e
 
 ## 🚀 Utilisation
 
-1. Ouvrez `index.html` dans votre navigateur
+1. Ouvrez `index.html` dans votre navigateur favori 
 2. Personnalisez le contenu selon vos besoins :
    - Modifiez votre nom dans la section héro
    - Ajoutez vos compétences
